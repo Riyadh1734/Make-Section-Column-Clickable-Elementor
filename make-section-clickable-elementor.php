@@ -2,12 +2,13 @@
 /**
  * Plugin Name: Make Section & Column Clickable Elementor
  * Description: A plugin that allow users to click in the whole column or section instead of individual elements
- * Plugin URI: http://sajuahmed.epizy.com/
+ * Plugin URI: https://wordpress.org/plugins/make-section-column-clickable-elementor
  * Author: Riyadh Ahmed
  * Author URI: http://sajuahmed.epizy.com/
- * Version: 1.0
+ * Version: 1.1
  * License: GPL2 or later
  * License URI: https://www.gnu.org/licenses/gpl-2.0.html
+ * Elementor tested up to: 3.6.5
  *  @package Riyadh_Ahmed
  */
 //don't call the file directly
