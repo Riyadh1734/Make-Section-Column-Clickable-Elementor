@@ -11,6 +11,7 @@
  * Elementor tested up to: 3.6.5
  *  @package Riyadh_Ahmed
  */
+
 //don't call the file directly
 if (!defined('ABSPATH')) exit;
 
@@ -46,7 +47,7 @@ class Make_Section_Clickable_Setup {
     );
 
     $element->add_control(
-      'ha_element_link',
+      'ra_element_link',
       [
         'label'       => __( 'Link', 'make-section-clickable-elementor' ),
         'type'        => Controls_Manager::URL,
@@ -58,7 +59,7 @@ class Make_Section_Clickable_Setup {
   }
 
   public static function before_section_render( Element_Base $element ) {
-    $link_settings = $element->get_settings_for_display( 'ha_element_link' );
+    $link_settings = $element->get_settings_for_display( 'ra_element_link' );
 
     if ( $link_settings && ! empty( $link_settings['url'] ) ) {
       $element->add_render_attribute(
