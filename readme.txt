@@ -48,5 +48,9 @@ Yes.
 
 * WordPress version compatible
 
+= 1.2 =
+
+* Fix/elementor version compatible
+
 == Upgrade notice ==
 N/A.

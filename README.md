@@ -3,7 +3,7 @@
 **Tags:** section clickable, column clickable, elementor section, elementor column  
 **Requires at least:** 5.2  
 **Tested up to:** 6.0.1   
-**Stable tag:** 1.1  
+**Stable tag:** 1.2 
 **License:** GPLv2 or later  
 **License URI:** http://www.gnu.org/licenses/gpl-2.0.html  
 
@@ -45,6 +45,10 @@ Yes.
 ### 1.1 ###
 
 **WordPress version compatible**
+
+### 1.2 ###
+
+**Fix/Elementor version compatible**
 
 **Upgrade notice**
 N/A.
