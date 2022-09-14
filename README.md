@@ -1,6 +1,6 @@
 # Make Section & Column Clickable Elementor #
-**Donate Link:** https://www.buymeacoffee.com/riyadh1734
-**Contributors:** [saju4wordpress](https://profiles.wordpress.org/saju4wordpress/) 
+**Donate Link:** https://www.buymeacoffee.com/riyadh1734</br>
+**Contributors:** [saju4wordpress](https://profiles.wordpress.org/saju4wordpress/)</br>
 **Tags:** section clickable, column clickable, elementor section, elementor column  
 **Requires at least:** 5.2  
 **Tested up to:** 6.0.1   
