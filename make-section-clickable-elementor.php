@@ -5,10 +5,10 @@
  * Plugin URI: https://wordpress.org/plugins/make-section-column-clickable-elementor
  * Author: Riyadh Ahmed
  * Author URI: http://sajuahmed.epizy.com/
- * Version: 1.3
+ * Version: 1.4
  * License: GPL2 or later
  * License URI: https://www.gnu.org/licenses/gpl-2.0.html
- * Elementor tested up to: 3.7.4
+ * Elementor tested up to: 3.7.8
  *  @package Riyadh_Ahmed
  */
 
