@@ -5,10 +5,10 @@
  * Plugin URI: https://wordpress.org/plugins/make-section-column-clickable-elementor
  * Author: Riyadh Ahmed
  * Author URI: http://sajuahmed.epizy.com/
- * Version: 1.4
+ * Version: 1.5
  * License: GPL2 or later
  * License URI: https://www.gnu.org/licenses/gpl-2.0.html
- * Elementor tested up to: 3.7.8
+ * Elementor tested up to: 3.11.2
  *  @package Riyadh_Ahmed
  */
 
@@ -83,7 +83,8 @@ class Make_Section_Clickable_Setup {
         [
           'data-ra-element-link' => json_encode($link_settings),
           'style' => 'cursor: pointer',
-          'onClick' => 'window.location.href=\'' . $link_settings['url'] . '\'',
+          'target' => '_blank',
+          'onClick' => 'window.open(\'' . $link_settings['url'] . '\', \'_blank\')',
         ]
       );
     }
