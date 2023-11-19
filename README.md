@@ -3,8 +3,9 @@
 **Contributors:** [saju4wordpress](https://profiles.wordpress.org/saju4wordpress/)</br>
 **Tags:** section clickable, column clickable, elementor section, elementor column  
 **Requires at least:** 5.2  
-**Tested up to:** 6.1.1   
-**Stable tag:** 1.5 
+**Tested up to:** 6.4
+**Elementor tested up to:** 3.17.1
+**Stable tag:** 1.8 
 **License:** GPLv2 or later  
 **License URI:** http://www.gnu.org/licenses/gpl-2.0.html  
 
@@ -30,11 +31,11 @@ You can make my day by submitting a positive review on <a href="https://wordpres
 2. Activate the plugin through the 'Plugins' menu in WordPress
 
 ## Frequently asked questions ##
-### How this plugin works? ###
+### How does this plugin work? ###
 This plugin will add a custom URL field in each column or section of your Elementor editor. If you fill it, the column will be clickable..
 ### What if I found a bug? ###
-If you have any issue, please use the support here.
-### Can I use this with my another plugin? ###
+If you have any issues, please use the support here.
+### Can I use this with my other plugin? ###
 Yes.
 
 ### Changelog ###
@@ -52,9 +53,9 @@ Yes.
 **Fix/Elementor version compatible**
 
 ### 1.3 ###
-**Add Contributing link via github**
+**Add Contributing link via GitHub**
 **Add donate link for supporting**
-**Compatible with elementor version**
+**Compatible with Elementor version**
 
 = 1.4 =
 
@@ -65,6 +66,23 @@ Yes.
 
 * Add automatic new tab opening for wrapper link
 * Add wrapper link within container
+* Compatible with WordPress version
+* Compatible with Elementor version
+  
+= 1.6 =
+
+* Add a new tab option in the wrapper settings menu
+* Compatible with WordPress version
+* Compatible with Elementor version
+
+= 1.7 =
+
+* Compatible with WordPress version
+* Compatible with Elementor version
+
+= 1.8 =
+
+* Fix PHP Warning: Trying to access array offset on the value of type null 
 * Compatible with WordPress version
 * Compatible with Elementor version
 
