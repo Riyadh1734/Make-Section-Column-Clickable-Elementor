@@ -3,7 +3,7 @@
 **Contributors:** [saju4wordpress](https://profiles.wordpress.org/saju4wordpress/)</br>
 **Tags:** section clickable, column clickable, elementor section, elementor column  
 **Requires at least:** 5.2  
-**Tested up to:** 6.4
+**Tested up to:** 6.4 
 **Elementor tested up to:** 3.17.1
 **Stable tag:** 1.8 
 **License:** GPLv2 or later  
