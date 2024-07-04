@@ -3,8 +3,8 @@
 **Contributors:** [saju4wordpress](https://profiles.wordpress.org/saju4wordpress/)</br>
 **Tags:** section clickable, column clickable, elementor section, elementor column  
 **Requires at least:** 5.2  
-**Tested up to:** 6.1.1   
-**Stable tag:** 1.5 
+**Tested up to:** 6.6   
+**Stable tag:** 2.0 
 **License:** GPLv2 or later  
 **License URI:** http://www.gnu.org/licenses/gpl-2.0.html  
 
@@ -67,6 +67,34 @@ Yes.
 * Add wrapper link within container
 * Compatible with WordPress version
 * Compatible with Elementor version
+
+= 1.6 =
+
+* Add new tab option in wrapper settings menu
+* Compatible with WordPress version
+* Compatible with Elementor version
+
+= 1.7 =
+
+* Compatible with WordPress version
+* Compatible with Elementor version
+
+= 1.8 =
+
+* Fix PHP Warning: Trying to access array offset on value of type null 
+* Compatible with WordPress version
+* Compatible with Elementor version
+
+= 1.9 =
+
+* Compatible with WordPress version
+* Compatible with Elementor version
+
+= 2.0 =
+
+* Compatible with WordPress version
+* Compatible with Elementor version
+* Add Appsero SDK
 
 **Upgrade notice**
 N/A.
