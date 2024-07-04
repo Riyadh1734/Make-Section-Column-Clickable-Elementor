@@ -25,6 +25,15 @@ After installing the plugin, open your Elementor editor, start editing a Column 
 
 You can make my day by submitting a positive review on <a href="https://wordpress.org/support/plugin/make-section-column-clickable-elementor/reviews/" target="_blank"><strong>WordPress.org!</strong></a></p>
 
+## Privacy Policy 
+Make Section &amp; Column Clickable Elementor uses [Appsero](https://appsero.com) SDK to collect some telemetry data upon user's confirmation. This helps us to troubleshoot problems faster & make product improvements.
+
+Appsero SDK **does not gather any data by default.** The SDK only starts gathering basic telemetry data **when a user allows it via the admin notice**. We collect the data to ensure a great user experience for all our users. 
+
+Integrating Appsero SDK **DOES NOT IMMEDIATELY** start gathering data, **without confirmation from users in any case.**
+
+Learn more about how [Appsero collects and uses this data](https://appsero.com/privacy-policy/).
+
 ## Installation ##
 1. Upload `Make Section & Column Clickable Elementor` to the `/wp-content/plugins/` directory
 2. Activate the plugin through the 'Plugins' menu in WordPress
@@ -56,41 +65,41 @@ Yes.
 **Add donate link for supporting**
 **Compatible with elementor version**
 
-= 1.4 =
+### 1.4 ###
 
 **Compatible with WordPress version**
 **Compatible with Elementor version**
 
-= 1.5 =
+### 1.5 ###
 
 * Add automatic new tab opening for wrapper link
 * Add wrapper link within container
 * Compatible with WordPress version
 * Compatible with Elementor version
 
-= 1.6 =
+### 1.6 ###
 
 * Add new tab option in wrapper settings menu
 * Compatible with WordPress version
 * Compatible with Elementor version
 
-= 1.7 =
+### 1.7 ###
 
 * Compatible with WordPress version
 * Compatible with Elementor version
 
-= 1.8 =
+### 1.8 ###
 
 * Fix PHP Warning: Trying to access array offset on value of type null 
 * Compatible with WordPress version
 * Compatible with Elementor version
 
-= 1.9 =
+### 1.9 ###
 
 * Compatible with WordPress version
 * Compatible with Elementor version
 
-= 2.0 =
+### 2.0 ###
 
 * Compatible with WordPress version
 * Compatible with Elementor version
