@@ -1,26 +1,27 @@
 <?php
 /**
- * Plugin Name: Make Section & Column Clickable Elementor
+ * Plugin Name: Make Section & Column Clickable For Elementor
  * Description: A plugin that allow users to click in the whole column or section instead of individual elements
  * Plugin URI: https://wordpress.org/plugins/make-section-column-clickable-elementor
  * Author: Riyadh Ahmed
  * Author URI: http://sajuahmed.epizy.com/
- * Version: 2.1
+ * Version: 2.4.1
  * License: GPL2 or later
  * License URI: https://www.gnu.org/licenses/gpl-2.0.html
- * Elementor tested up to: 3.25.10
+ * Elementor tested up to: 3.32
  *  @package Riyadh_Ahmed
  */
 
+/**
+ * Prevent direct access and load dependencies
+ */
+if ( ! defined( 'ABSPATH' ) ) {
+    exit; // Exit if accessed directly
+}
 require __DIR__ . '/vendor/autoload.php';
-
-//don't call the file directly
-if (!defined('ABSPATH')) exit;
 
 use Elementor\Controls_Manager;
 use Elementor\Element_Base;
-
-defined('ABSPATH') || die();
 
 
 /**
@@ -55,6 +56,7 @@ class Make_Section_Clickable_Setup {
     add_action('elementor/element/section/section_advanced/after_section_end', [__CLASS__, 'add_controls_section'], 1);
     add_action('elementor/element/common/_section_style/after_section_end', [__CLASS__, 'add_controls_section'], 1);
     add_action('elementor/frontend/before_render', [__CLASS__, 'before_section_render'], 1);
+    add_action('wp_enqueue_scripts',[ __CLASS__, 'enqueue_scripts' ] );
   }
   /**
    * Add control section function
@@ -64,9 +66,9 @@ class Make_Section_Clickable_Setup {
    * @since 1.0
    */
   public static function add_controls_section(Element_Base $element) {
+    
     $tabs = Controls_Manager::TAB_CONTENT;
-
-    if ('section' === $element->get_name() || 'column' === $element->get_name()) {
+    if ( in_array( $element->get_name(), [ 'section', 'column' ], true ) ) {
       $tabs = Controls_Manager::TAB_LAYOUT;
     }
 
@@ -84,6 +86,7 @@ class Make_Section_Clickable_Setup {
         'label'       => __('Link', 'make-section-clickable-elementor'),
         'type'        => Controls_Manager::URL,
         'placeholder' => 'https://example.com',
+        'show_external' => true,
       ]
     );
 
@@ -97,21 +100,41 @@ class Make_Section_Clickable_Setup {
   public static function before_section_render(Element_Base $element) {
 
     $link_settings = $element->get_settings_for_display('ra_element_link');
-    //$blank = $link_settings['is_external'] != '' ? '_blank' : '_self';
-    $blank = isset($link_settings['is_external']) && $link_settings['is_external'] != '' ? '_blank' : '_self';
+    
+    if ( empty( $link_settings['url'] ) ) {
+			return;
+		}
 
-    if ($link_settings && !empty($link_settings['url'])) {
-      $element->add_render_attribute(
-        '_wrapper',
-        [
-          'data-ra-element-link' => json_encode($link_settings),
-          'style' => 'cursor: pointer',
-          'target' => $blank,
-          'onClick' => 'window.open(\'' . $link_settings['url'] . '\', \'' . $blank . '\')',
-        ]
-      );
-    }
+		$url = esc_url_raw( $link_settings['url'] );
+
+		if ( ! wp_http_validate_url( $url ) ) {
+			return;
+		}
+
+		$target = ! empty( $link_settings['is_external'] ) ? '_blank' : '_self';
+
+		$element->add_render_attribute(
+			'_wrapper',
+			[
+				'data-ra-url'    => esc_url( $url ),
+				'data-ra-target' => esc_attr( $target ),
+				'class'          => 'ra-clickable-wrapper',
+				'style'          => 'cursor:pointer;',
+			]
+		);
   }
+
+  /**
+	 * Enqueue safe JS handler
+	 */
+	public static function enqueue_scripts() {
+
+		wp_register_script(
+			'ra-make-section-clickable',
+			plugins_url( 'assets/js/ra-clickable.js', __FILE__ ),[],'2.4.1',true );
+
+		wp_enqueue_script( 'ra-make-section-clickable' );
+	}
 }
 /**
  * Kick-off the plugin

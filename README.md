@@ -3,9 +3,9 @@
 **Contributors:** [saju4wordpress](https://profiles.wordpress.org/saju4wordpress/), [ wecodexwp ]</br>
 **Tags:** section clickable, column clickable, elementor section, elementor column  
 **Requires at least:** 5.2  
-**Tested up to:** 6.7   
-**Stable tag:** 2.1
-**Elementor tested up to:** 3.25.10 
+**Tested up to:** 6.9   
+**Stable tag:** 2.4.1
+**Elementor tested up to:** 3.34 
 **License:** GPLv2 or later  
 **License URI:** http://www.gnu.org/licenses/gpl-2.0.html  
 
@@ -24,7 +24,7 @@ After installing the plugin, open your Elementor editor, start editing a Column 
 **[About Author](http://sajuahmed.epizy.com/)**
 
 
-You can make my day by submitting a positive review on <a href="https://wordpress.org/support/plugin/make-section-column-clickable-elementor/reviews/" target="_blank"><strong>WordPress.org!</strong></a></p>
+You can make my day by submitting a positive review on <a href###"https://wordpress.org/support/plugin/make-section-column-clickable-elementor/reviews/" target###"_blank"><strong>WordPress.org!</strong></a></p>
 
 ## Privacy Policy 
 Make Section &amp; Column Clickable Elementor uses [Appsero](https://appsero.com) SDK to collect some telemetry data upon user's confirmation. This helps us to troubleshoot problems faster & make product improvements.
@@ -110,6 +110,37 @@ Yes.
 
 * Compatible with WordPress version
 * Compatible with Elementor version
+
+### 2.2 ###
+
+* Compatible with WordPress version
+* Compatible with Elementor version
+
+### 2.3 ###
+
+* Compatible with WordPress version
+* Compatible with Elementor version
+
+### 2.4 ###
+
+* Compatible with WordPress version
+
+### 2.4.1 ###
+
+* Compatible with WordPress version
+* Compatible with Elementor version
+
+* 🔐 Security
+* Fixed a stored XSS vulnerability caused by inline JavaScript usage
+* Removed inline onclick handlers from frontend rendering
+* Implemented secure click handling using external JavaScript
+* Sanitized and escaped all user-provided URLs and attributes
+* Improved compatibility with WordPress Multisite security restrictions
+
+* 🛠️ Improvements
+* Cleaner frontend markup
+* CSP-friendly implementation
+* Improved long-term security hardening
 
 **Upgrade notice**
 N/A.
