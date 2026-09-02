@@ -1,151 +1,348 @@
-# Make Section & Column Clickable Elementor #
-**Donate Link:** https://www.buymeacoffee.com/riyadh1734</br>
-**Contributors:** [saju4wordpress](https://profiles.wordpress.org/saju4wordpress/), [ wecodexwp ]</br>
-**Tags:** section clickable, column clickable, elementor section, elementor column  
-**Requires at least:** 5.2  
-**Tested up to:** 7.1   
-**Stable tag:** 2.4.5
-**Elementor tested up to:** 4.2.3
-**License:** GPLv2 or later  
-**License URI:** http://www.gnu.org/licenses/gpl-2.0.html  
+# Make Section & Column Clickable Elementor
 
-Make Section & Column Clickable Elementor is a WordPress plugin to clickable your elementor column & section in your WordPress website.
+[![WordPress](https://img.shields.io/badge/WordPress-5.2%2B-blue.svg)](https://wordpress.org/)
+[![Elementor](https://img.shields.io/badge/Elementor-Compatible-orange.svg)](https://elementor.com/)
+[![License](https://img.shields.io/badge/License-GPLv2%2B-green.svg)](https://www.gnu.org/licenses/gpl-2.0.html)
 
-## Description ##
-A plugin that allows users to click in the whole column or section instead of individual elements
+**Make Section & Column Clickable Elementor** is a WordPress plugin that allows you to make entire **Elementor sections, columns, and containers clickable** by adding a custom URL.
 
-1. Users will be able to click on the whole column when you add a link on that.
-2. Users will be able to click on the whole section when you add a link on that.
+Instead of requiring visitors to click on an individual button, image, heading, or other element, they can click anywhere within the configured section or column.
 
-## HOW TO USE IT ##
-After installing the plugin, open your Elementor editor, start editing a Column or Section, and under the Layout block (wrapper link option) you can add your custom link.
+## ✨ Features
 
-**[Need Help?](http://sajuahmed.epizy.com/)**		
-**[About Author](http://sajuahmed.epizy.com/)**
+* ✅ Make an entire Elementor column clickable
+* ✅ Make an entire Elementor section clickable
+* ✅ Add a custom URL to sections and columns
+* ✅ Support opening links in a new browser tab
+* ✅ Support Elementor containers
+* ✅ Lightweight and easy to use
+* ✅ No complicated configuration required
+* ✅ Secure frontend click handling
+* ✅ Sanitized and escaped user-provided URLs and attributes
+* ✅ CSP-friendly implementation
+* ✅ Compatible with WordPress Multisite security restrictions
 
+## 📋 Requirements
 
-You can make my day by submitting a positive review on <a href###"https://wordpress.org/support/plugin/make-section-column-clickable-elementor/reviews/" target###"_blank"><strong>WordPress.org!</strong></a></p>
+* **WordPress:** 5.2 or higher
+* **Elementor:** Compatible version
+* **PHP:** Compatible with your WordPress/Elementor installation
 
-## Privacy Policy 
-Make Section &amp; Column Clickable Elementor uses [Appsero](https://appsero.com) SDK to collect some telemetry data upon user's confirmation. This helps us to troubleshoot problems faster & make product improvements.
+## 🚀 Installation
 
-Appsero SDK **does not gather any data by default.** The SDK only starts gathering basic telemetry data **when a user allows it via the admin notice**. We collect the data to ensure a great user experience for all our users. 
+### Method 1: WordPress Dashboard
 
-Integrating Appsero SDK **DOES NOT IMMEDIATELY** start gathering data, **without confirmation from users in any case.**
+1. Download the plugin ZIP file.
+2. Go to **WordPress Dashboard → Plugins → Add New → Upload Plugin**.
+3. Upload the plugin ZIP file.
+4. Click **Install Now**.
+5. Activate **Make Section & Column Clickable Elementor**.
 
-Learn more about how [Appsero collects and uses this data](https://appsero.com/privacy-policy/).
+### Method 2: Manual Installation
 
-## Installation ##
-1. Upload `Make Section & Column Clickable Elementor` to the `/wp-content/plugins/` directory
-2. Activate the plugin through the 'Plugins' menu in WordPress
+1. Download or clone this repository.
+2. Upload the plugin folder to:
 
-## Frequently asked questions ##
-### How this plugin works? ###
-This plugin will add a custom URL field in each column or section of your Elementor editor. If you fill it, the column will be clickable..
-### What if I found a bug? ###
-If you have any issue, please use the support here.
-### Can I use this with my another plugin? ###
-Yes.
+```text
+/wp-content/plugins/
+```
 
-### Changelog ###
+3. Go to **WordPress Dashboard → Plugins**.
+4. Activate **Make Section & Column Clickable Elementor**.
 
-### 1.0 ###
+## ⚙️ How to Use
 
-**Initial version**
+After installing and activating the plugin:
 
-### 1.1 ###
+1. Open a page or post with the **Elementor Editor**.
+2. Select the **Section, Column, or Container** you want to make clickable.
+3. Open the **Layout** settings.
+4. Find the **Wrapper Link** option.
+5. Enter your desired URL.
+6. Configure the **Open in New Tab** option if required.
+7. Update/publish the page.
 
-**WordPress version compatible**
+The entire configured section, column, or container will then act as a clickable link.
 
-### 1.2 ###
+### Example
 
-**Fix/Elementor version compatible**
+Instead of having only a button clickable:
 
-### 1.3 ###
-**Add Contributing link via github**
-**Add donate link for supporting**
-**Compatible with elementor version**
+```text
+┌──────────────────────────────┐
+│                              │
+│       Your Content           │
+│                              │
+│        [ Learn More ]        │
+│                              │
+└──────────────────────────────┘
+```
 
-### 1.4 ###
+You can make the entire area clickable:
 
-**Compatible with WordPress version**
-**Compatible with Elementor version**
+```text
+┌──────────────────────────────┐
+│                              │
+│       Your Content           │
+│                              │
+│       CLICK ANYWHERE         │
+│                              │
+└──────────────────────────────┘
+```
 
-### 1.5 ###
+## 🔗 Wrapper Link
 
-* Add automatic new tab opening for wrapper link
-* Add wrapper link within container
-* Compatible with WordPress version
-* Compatible with Elementor version
+The plugin adds a **Wrapper Link** option to the Elementor layout settings.
 
-### 1.6 ###
+You can use it to:
 
-* Add new tab option in wrapper settings menu
-* Compatible with WordPress version
-* Compatible with Elementor version
+* Add an internal page URL
+* Add an external website URL
+* Link to a product
+* Link to a landing page
+* Link to any valid destination URL
 
-### 1.7 ###
+## 🔐 Security
 
-* Compatible with WordPress version
-* Compatible with Elementor version
+Security has been improved in recent versions of the plugin.
 
-### 1.8 ###
+### Version 2.4.1 Security Improvements
 
-* Fix PHP Warning: Trying to access array offset on value of type null 
-* Compatible with WordPress version
-* Compatible with Elementor version
+* Fixed a stored XSS vulnerability related to inline JavaScript usage.
+* Removed inline `onclick` handlers from frontend rendering.
+* Implemented secure click handling using external JavaScript.
+* Sanitized and escaped user-provided URLs and attributes.
+* Improved compatibility with WordPress Multisite security restrictions.
+* Improved overall frontend security hardening.
+* Added a more CSP-friendly implementation.
 
-### 1.9 ###
+## 🔒 Privacy Policy
 
-* Compatible with WordPress version
-* Compatible with Elementor version
+**Make Section & Column Clickable Elementor** uses the [Appsero](https://appsero.com) SDK to collect telemetry data **only after the user provides confirmation**.
 
-### 2.0 ###
+Appsero SDK does **not** gather data by default.
 
-* Compatible with WordPress version
-* Compatible with Elementor version
-* Add Appsero SDK
+The SDK only starts collecting basic telemetry data when a user explicitly allows it through the WordPress admin notice.
 
-### 2.1 ###
+The collected telemetry helps us:
 
-* Compatible with WordPress version
-* Compatible with Elementor version
+* Troubleshoot problems faster
+* Understand plugin usage
+* Improve compatibility
+* Improve the overall user experience
 
-### 2.2 ###
+Integrating the Appsero SDK does **not** immediately start collecting data without user confirmation.
 
-* Compatible with WordPress version
-* Compatible with Elementor version
+Learn more about Appsero's data practices:
 
-### 2.3 ###
+[Appsero Privacy Policy](https://appsero.com/privacy-policy/)
 
-* Compatible with WordPress version
-* Compatible with Elementor version
+## ❓ Frequently Asked Questions
 
-### 2.4 ###
+### How does this plugin work?
 
-* Compatible with WordPress version
+The plugin adds a custom **Wrapper Link** field to Elementor sections, columns, and supported containers.
 
-### 2.4.1 ###
+When you enter a URL, the selected area becomes clickable.
 
-* Compatible with WordPress version
-* Compatible with Elementor version
+### Can I make an entire Elementor column clickable?
 
-* 🔐 Security
-* Fixed a stored XSS vulnerability caused by inline JavaScript usage
-* Removed inline onclick handlers from frontend rendering
-* Implemented secure click handling using external JavaScript
-* Sanitized and escaped all user-provided URLs and attributes
-* Improved compatibility with WordPress Multisite security restrictions
+Yes. Select the column in Elementor and add your URL through the **Wrapper Link** option under the Layout settings.
 
-* 🛠️ Improvements
-* Cleaner frontend markup
-* CSP-friendly implementation
-* Improved long-term security hardening
+### Can I make an entire Elementor section clickable?
 
-### 2.4.5 ###
+Yes. The plugin supports clickable Elementor sections.
 
-* Compatible with WordPress version
-* Compatible with Elementor version
-  
-**Upgrade notice**
-N/A.
+### Can I make an Elementor container clickable?
+
+Yes. Container support is included.
+
+### Can links open in a new tab?
+
+Yes. You can enable the **Open in New Tab** option in the wrapper link settings.
+
+### Can I use this with other plugins?
+
+Yes. The plugin is designed to work alongside other WordPress plugins.
+
+### What should I do if I find a bug?
+
+If you find a bug or compatibility issue, please open an issue in this GitHub repository or use the WordPress.org support forum.
+
+## 🤝 Contributing
+
+Contributions are welcome!
+
+If you find a bug, want to improve the plugin, or have an idea for a new feature, feel free to contribute.
+
+### Contribution Process
+
+1. Fork the repository.
+2. Create a new branch:
+
+```bash
+git checkout -b feature/my-new-feature
+```
+
+3. Make your changes.
+4. Commit your changes:
+
+```bash
+git commit -m "Add new feature"
+```
+
+5. Push your branch:
+
+```bash
+git push origin feature/my-new-feature
+```
+
+6. Open a Pull Request.
+
+## ⭐ Support the Project
+
+If you find **Make Section & Column Clickable Elementor** useful, please consider leaving a positive review on WordPress.org.
+
+[⭐ Leave a Review on WordPress.org](https://wordpress.org/support/plugin/make-section-column-clickable-elementor/reviews/)
+
+You can also support the project:
+
+[☕ Buy Me a Coffee](https://www.buymeacoffee.com/riyadh1734)
+
+## 👨‍💻 Contributors
+
+* [saju4wordpress](https://profiles.wordpress.org/saju4wordpress/)
+* **wecodexwp**
+
+## 🔗 Links
+
+* **WordPress Plugin:** https://wordpress.org/plugins/make-section-column-clickable-elementor/
+* **WordPress Support:** https://wordpress.org/support/plugin/make-section-column-clickable-elementor/
+* **Plugin Reviews:** https://wordpress.org/support/plugin/make-section-column-clickable-elementor/reviews/
+* **Author Website:** http://sajuahmed.epizy.com/
+* **Buy Me a Coffee:** https://www.buymeacoffee.com/riyadh1734
+* **Appsero:** https://appsero.com/
+
+## 📄 License
+
+Make Section & Column Clickable Elementor is free software licensed under the **GNU General Public License v2.0 or later**.
+
+See the [GPLv2 License](https://www.gnu.org/licenses/gpl-2.0.html) for more information.
+
+## 📝 Changelog
+
+### 2.4.5
+
+* Updated WordPress compatibility.
+* Updated Elementor compatibility.
+
+### 2.4.1
+
+#### 🔐 Security
+
+* Fixed a stored XSS vulnerability caused by inline JavaScript usage.
+* Removed inline `onclick` handlers from frontend rendering.
+* Implemented secure click handling using external JavaScript.
+* Sanitized and escaped all user-provided URLs and attributes.
+* Improved compatibility with WordPress Multisite security restrictions.
+
+#### 🛠️ Improvements
+
+* Cleaner frontend markup.
+* CSP-friendly implementation.
+* Improved long-term security hardening.
+* Updated WordPress compatibility.
+* Updated Elementor compatibility.
+
+### 2.4
+
+* Updated WordPress compatibility.
+
+### 2.3
+
+* Updated WordPress compatibility.
+* Updated Elementor compatibility.
+
+### 2.2
+
+* Updated WordPress compatibility.
+* Updated Elementor compatibility.
+
+### 2.1
+
+* Updated WordPress compatibility.
+* Updated Elementor compatibility.
+
+### 2.0
+
+* Updated WordPress compatibility.
+* Updated Elementor compatibility.
+* Added Appsero SDK.
+
+### 1.9
+
+* Updated WordPress compatibility.
+* Updated Elementor compatibility.
+
+### 1.8
+
+* Fixed PHP warning: `Trying to access array offset on value of type null`.
+* Updated WordPress compatibility.
+* Updated Elementor compatibility.
+
+### 1.7
+
+* Updated WordPress compatibility.
+* Updated Elementor compatibility.
+
+### 1.6
+
+* Added a new tab option in the wrapper settings menu.
+* Updated WordPress compatibility.
+* Updated Elementor compatibility.
+
+### 1.5
+
+* Added automatic new-tab opening for wrapper links.
+* Added wrapper links within Elementor containers.
+* Updated WordPress compatibility.
+* Updated Elementor compatibility.
+
+### 1.4
+
+* Updated WordPress compatibility.
+* Updated Elementor compatibility.
+
+### 1.3
+
+* Added GitHub contribution link.
+* Added donation link for project support.
+* Updated Elementor compatibility.
+
+### 1.2
+
+* Fixed/updated Elementor compatibility.
+
+### 1.1
+
+* Updated WordPress compatibility.
+
+### 1.0
+
+* Initial release.
+
+## 📦 Plugin Information
+
+| Information        | Details                                   |
+| ------------------ | ----------------------------------------- |
+| Plugin Name        | Make Section & Column Clickable Elementor |
+| Stable Version     | 2.4.5                                     |
+| Requires WordPress | 5.2+                                      |
+| Tested WordPress   | 7.1                                       |
+| Tested Elementor   | 4.2.3                                     |
+| License            | GPLv2 or later                            |
+| Contributors       | saju4wordpress, wecodexwp                 |
+
+---
+
+**Make Section & Column Clickable Elementor** — Make your entire Elementor sections, columns, and containers clickable with a simple wrapper link.
