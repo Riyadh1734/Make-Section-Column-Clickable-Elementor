@@ -3,9 +3,9 @@
 **Contributors:** [saju4wordpress](https://profiles.wordpress.org/saju4wordpress/), [ wecodexwp ]</br>
 **Tags:** section clickable, column clickable, elementor section, elementor column  
 **Requires at least:** 5.2  
-**Tested up to:** 6.9   
-**Stable tag:** 2.4.1
-**Elementor tested up to:** 3.34 
+**Tested up to:** 7.1   
+**Stable tag:** 2.4.5
+**Elementor tested up to:** 4.2.3
 **License:** GPLv2 or later  
 **License URI:** http://www.gnu.org/licenses/gpl-2.0.html  
 
@@ -142,5 +142,10 @@ Yes.
 * CSP-friendly implementation
 * Improved long-term security hardening
 
+### 2.4.5 ###
+
+* Compatible with WordPress version
+* Compatible with Elementor version
+  
 **Upgrade notice**
 N/A.
